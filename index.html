@@ -1,88 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Change Over Time: Video Game Graphics & Public Perception (1995–2010)</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evolution of Game Graphics (1995–2010)</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Change Over Time: Video Games and Public Perception (1995–2010)</h1>
-    <nav>
-      <a href="#intro">Introduction</a>
-      <a href="#claim">Claim</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#changes">Major Changes</a>
-      <a href="#perception">Public Perception</a>
-      <a href="#sources">Sources</a>
-    </nav>
+    <h1>The Evolution of Video Game Graphics (1995–2010)</h1>
+    <p>Tracking graphical progress and public perception through iconic milestones.</p>
   </header>
 
-  <main>
-    <section id="intro">
-      <h2>Introduction</h2>
-      <p>Between 1995 and 2010, video game graphics evolved dramatically—from pixelated art to cinematic realism. This project explores how visual advancements changed the way society views video games.</p>
-    </section>
+  <section class="slider">
+    <div class="slides">
+      <input type="radio" name="r" id="slide1" checked>
+      <input type="radio" name="r" id="slide2">
+      <input type="radio" name="r" id="slide3">
+      <input type="radio" name="r" id="slide4">
 
-    <section id="claim">
-      <h2>Claim</h2>
-      <p><strong>Between 1995 and 2010,</strong> improvements in graphics technology fundamentally shifted public perception of games—from childlike entertainment to serious, artistic content.</p>
-    </section>
+      <div class="slide s1">
+        <img src="https://i.imgur.com/your_im5.png" alt="Doom 1995 screenshot">
+        <p>Doom (1995) – early 3D FPS with flat sprites over fake-3D environments.</p>
+      </div>
+      <div class="slide s2">
+        <img src="https://i.imgur.com/your_im10.png" alt="Halo: Combat Evolved 2001 screenshot">
+        <p>Halo: Combat Evolved (2001) – introduction of 3D polygons and lighting, more immersive.</p>
+      </div>
+      <div class="slide s3">
+        <img src="https://i.imgur.com/your_im0.png" alt="Red Dead Redemption 2010 screenshot">
+        <p>Red Dead Redemption (2010) – cinematic visuals, dynamic weather, realistic lighting and textures.</p>
+      </div>
+      <div class="slide s4">
+        <img src="https://i.imgur.com/your_im3.png" alt="Red Dead train scene">
+        <p>RDR town & train combo – detailed environment and storytelling visuals.</p>
+      </div>
 
-    <section id="timeline">
-      <h2>Key Evidence Timeline</h2>
+      <div class="navigation">
+        <label for="slide1" class="nav-dot" id="dot1"></label>
+        <label for="slide2" class="nav-dot" id="dot2"></label>
+        <label for="slide3" class="nav-dot" id="dot3"></label>
+        <label for="slide4" class="nav-dot" id="dot4"></label>
+      </div>
+    </div>
+  </section>
 
-      <h3>1995: Doom</h3>
-      <p><em>Doom</em> used pixel-art and early 3D rendering. Game visuals felt groundbreaking but still primitive.</p>
-      <img src="https://images.mobygames.com/images/shots/l/86119-the-ultimate-doom-dos-screenshot-one-of-the-early-levels.png" alt="Doom DOS screenshot from 1995">
-
-      <h3>1995: Doom (PlayStation)</h3>
-      <p>Later ports, like the PlayStation version, added simple lighting effects and colors.</p>
-      <img src="https://images.mobygames.com/images/shots/l/492002-doom-playstation-screenshot-the-psx-release-adds-colored.png" alt="Doom PS1 screenshot">
-
-      <h3>2000: Halo</h3>
-      <p><em>Halo: Combat Evolved</em> offered immersive 3D, smooth environments, and richer storytelling.</p>
-      <img src="https://images.mobygames.com/images/shots/l/80717-halo-combat-evolved-windows-screenshot-i-m-in-a-war-now.png" alt="Halo screenshot from 2001">
-
-      <h3>2010: Red Dead Redemption</h3>
-      <p><em>Red Dead Redemption</em> achieved cinematic realism using HD textures, motion capture, and dynamic lighting.</p>
-      <img src="https://images.mobygames.com/images/shots/l/436783-red-dead-redemption-playstation-3-screenshot-riding-in-the.png" alt="Red Dead Redemption screenshot 2010">
-    </section>
-
-    <section id="changes">
-      <h2>Major Changes</h2>
-      <ul>
-        <li><strong>Technology:</strong> Rise of GPU, advanced lighting, motion capture</li>
-        <li><strong>Design:</strong> Shift from pixel/art style to immersive storytelling</li>
-        <li><strong>Audience:</strong> Broader age groups, including adults</li>
-        <li><strong>Debates:</strong> Emerging concerns about realism, violence, and screen time</li>
-      </ul>
-    </section>
-
-    <section id="perception">
-      <h2>Public Perception Timeline</h2>
-      <ul>
-        <li><strong>1995:</strong> “Games are just fun.”</li>
-        <li><strong>2000:</strong> “They’re cool, mainstream.”</li>
-        <li><strong>2010:</strong> “They’re art, but also contentious.”</li>
-      </ul>
-      <p><em>Key insight:</em> Technology drives cultural perception—realism leads to respect, but also controversy.</p>
-    </section>
-
-    <section id="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li>Kent, Steven. <em>The Ultimate History of Video Games</em>. Three Rivers Press, 2001.</li>
-        <li>ESA. “Essential Facts About the Video Game Industry,” 2005–2010.</li>
-        <li>GamePro Magazine Archives (primary source).</li>
-        <li>Mobygames.com (game images and data).</li>
-        <li>IGN.com – Reviews and retrospectives.</li>
-      </ul>
-    </section>
-  </main>
+  <section class="content">
+    <article>
+      <h2>1. Doom (1995)</h2>
+      <p>Flat sprites, 2.5D environments. Health/armor HUD and pixelated demons. Public saw groundbreaking FPS visuals.</p>
+    </article>
+    <article>
+      <h2>2. Halo: Combat Evolved (2001)</h2>
+      <p>Fully 3D polygon rendering, dynamic lighting, realistic environments. FPS became immersive and cinematic.</p>
+    </article>
+    <article>
+      <h2>3. Red Dead Redemption (2010)</h2>
+      <p>Cinematic scale, detailed textures, day–night cycle, weather effects. Public viewed these visuals as near-movie quality.</p>
+    </article>
+  </section>
 
   <footer>
-    <p>Student project. Images are owned by their creators and used for educational purposes only.</p>
+    <p>Project by [Your Name] • Period: 1995–2010</p>
   </footer>
 </body>
 </html>
